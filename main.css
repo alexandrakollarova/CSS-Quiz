@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(images/poly.jpg);
+    background-image: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 200px;    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 35px;
+    background-color: #03A9F4;
+    border: none;
+    font-weight: bold;
+}
+
+.questions {
+    position: relative;
+    margin-left: 200px;
+    top: 50px;
+}
+
+.score {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 280px;
+}
+

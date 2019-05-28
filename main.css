@@ -3,44 +3,73 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    background-image: url(images/poly.jpg);
+    /* background-image: url(images/poly.jpg);
     background-image: contain;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position-x: center; */
 }
 
 header {
-    text-align: center;
-    margin-top: 200px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 50px;
+    padding: 0 50px
 }
+
+main {
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+/* HEADING TYPOGRAPGY*/
 
 h1 {
     font-size: 50px;
 }
 
-button {
-    margin-top: 30px;
-    padding: 20px 30px;
-    border-radius: 35px;
+h2 {
+    padding-top: 45px
+}
+
+
+/* BUTTONS, INPUTS */
+
+button, input {
+    padding: 15px 25px;
+    /* border-radius: 35px;
     background-color: #03A9F4;
     border: none;
-    font-weight: bold;
+    font-weight: bold; */
 }
 
-.questions {
-    position: relative;
-    margin-left: 200px;
-    top: 50px;
+
+/* FORM, DIV BOXES */
+
+form {
+    background-color: grey;
+    width: 450px;
+    height: 300px; 
 }
 
-.score {
-    position: absolute;
-    right: 200px;
-    top: 50px;
+fieldset {
+    border: none;
 }
 
-footer {
-    text-align: center;
-    margin-top: 280px;
+.correct-answer, .wrong-answer, .total-score {
+    background-color: grey;
+    width: 350px;
+    height: 250px;
 }
+
+
 

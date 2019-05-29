@@ -44,12 +44,20 @@ h2 {
 
 /* BUTTONS, INPUTS */
 
-button, input {
+input {
     padding: 15px 25px;
     /* border-radius: 35px;
     background-color: #03A9F4;
     border: none;
     font-weight: bold; */
+}
+
+a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    padding: 15px 25px;
 }
 
 

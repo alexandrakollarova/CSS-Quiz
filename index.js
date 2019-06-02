@@ -4,7 +4,6 @@ let questionNum = 0;
 
 let score = 0;
 
-// loop through and display each queastion from the dataStore 
 function generateQuestions() {
     if (questionNum < questionStore.length) {
 
@@ -62,15 +61,16 @@ function handleStartButton() {
     });
 }
 
-
-// generate next question each time
 function handleQuestionNum() {
     questionNum ++;
 }
 
-// update score
 function handleScore() {
     score = score + 10;
+
+    $("#nav").html(
+        `<h3 class="questions">Question ${questionNum + 1}/10</h3>
+         <h3 class="score">Score ${score}/100</h3>`);
 }
 
 function handleSubmitButton() {
@@ -110,8 +110,6 @@ function handleSubmitButton() {
         }
     });
 }
-
-// check whether the asnwer is correct 
 
 function handleNextButton() {
     $("#container").on('click', "#js-nextBtn", function() {

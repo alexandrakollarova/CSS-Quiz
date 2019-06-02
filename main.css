@@ -26,6 +26,10 @@ main {
     justify-content: center;    
 }
 
+main form {
+    margin-top: -50px;
+}
+
 footer {
     text-align: center;
     margin-top: 250px;

@@ -1,15 +1,33 @@
-# CSS-Quiz
+# CSS Quiz
 
-## Description
-CSS Quiz is a JavaScript application used to test CSS skills.
+## Link: 
+https://alexandrakollarova.github.io/CSS-Quiz/
 
-## Visuals
+## Description:
+This app allows you to test your CSS skills.
 
-![alt text](images/visual1.png)![alt text](images/visual2.png)![alt text](images/visual3.png)
+## In action:
 
-## Usage
-User must select 1 option out of 4 to get to the next question. Each correctly answered question is worth 10 points. The quiz consists of 10 questions and user can earn 100 points in total.
+### Home Page
+![alt text](images/visual1.png)
 
-## Support
-alexandrakollarova91@gmail.com
+### Answer CSS Questions
+![alt text](images/visual2.png)
+
+#### Earn Points: 
+Each question worths 10 points
+
+### Get Feedback
+![alt text](images/visual3.png)
+![alt text](images/visual4.png)
+
+### Get Results
+![alt text](images/visual5.png)
+
+## Tech Used:
+JavaScript
+jQuery
+HTML
+CSS
+
 

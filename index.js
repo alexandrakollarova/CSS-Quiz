@@ -131,7 +131,7 @@ function overallScore() {
     const result = `
             <div class="total-score">
                 <h2>You Scored ${score}/100!</h2>
-                <button type="submit" id="js-restartBtn">START OVER</button>
+                <button type="submit" class="start-over" id="js-restartBtn">START OVER</button>
             </div>`;
             
     $('#container').html(result);

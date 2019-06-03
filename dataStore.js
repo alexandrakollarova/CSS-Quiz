@@ -10,7 +10,7 @@ const questionStore = [
             'c) Cascading Styling Source',
             'd) Color Style Sheet'
         ],
-        correctAnswer: 'a) Cascading Styling Sheets'        
+        correctAnswer: 'a) Cascading Style Sheets'        
     },
     {
         id: 2,

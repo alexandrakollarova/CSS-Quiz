@@ -5,7 +5,7 @@ const questionStore = [
         id: 1,
         question: 'What does CSS stand for?',
         answers: [
-            'a) Cascading Styling Sheets',
+            'a) Cascading Style Sheets',
             'b) Color Styling Sheets',
             'c) Cascading Styling Source',
             'd) Color Style Sheet'
@@ -47,7 +47,7 @@ const questionStore = [
     },
     {
         id: 5,
-        question: 'Could keyword !imporatnt affect CSS rule of higher specificity?',
+        question: 'Could keyword !important affect CSS rule of higher specificity?',
         answers: [
             'a) yes',
             'b) works only for headings',

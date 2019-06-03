@@ -43,11 +43,6 @@ h2 {
     padding-top: 30px    
 }
 
-.quiz-answer-choices h3 {
-    text-align: left;
-    margin-left: 15px;
-}
-
 h2, h3 {
     color: black;
 }
@@ -65,13 +60,33 @@ input, button {
     color: white;
     border: none;
     font-weight: bold;
-    font-size: 15px
+    font-size: 15px;
+    cursor: pointer;
 }
 
 form {
     background-color: white;
     width: 100%;
     height: 320px; 
+}
+
+label {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.quiz-answer-choices {
+    margin-bottom: 20px;
+}
+
+legend {
+    padding-top: 25px;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 fieldset {

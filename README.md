@@ -1,7 +1,7 @@
 # CSS Quiz
 
 ## Link: 
-https://alexandrakollarova.github.io/CSS-Quiz/
+[CSS Quiz](https://alexandrakollarova.github.io/CSS-Quiz/)
 
 ## Description:
 This app allows you to test your CSS skills.
@@ -25,9 +25,9 @@ Each question worths 10 points
 ![alt text](images/visual5.png)
 
 ## Tech Used:
-JavaScript
-jQuery
-HTML
-CSS
+* JavaScript
+* jQuery
+* HTML
+* CSS
 
 

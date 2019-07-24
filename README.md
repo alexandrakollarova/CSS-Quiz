@@ -1,6 +1,6 @@
 # CSS Quiz
 
-## Link: 
+## Live: 
 [CSS Quiz](https://alexandrakollarova.github.io/CSS-Quiz/)
 
 ## Description:

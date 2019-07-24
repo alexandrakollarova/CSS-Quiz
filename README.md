@@ -1,7 +1,6 @@
 # CSS Quiz
 
-## Live: 
-[CSS Quiz](https://alexandrakollarova.github.io/CSS-Quiz/)
+## Live: [CSS Quiz](https://alexandrakollarova.github.io/CSS-Quiz/)
 
 ## Description:
 This app allows you to test your CSS skills.
